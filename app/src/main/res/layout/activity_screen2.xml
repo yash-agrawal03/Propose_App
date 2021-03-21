@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".activity_screen2">
 
     <EditText
@@ -12,6 +13,15 @@
         android:layout_height="wrap_content"
         android:text="bhai tumhara warrior hai!"
         android:id="@+id/edit1"/>
+
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="a"
+        android:textColor="#000000"
+    android:id="@+id/tv3"/>
+
 
     <Button
         android:layout_width="match_parent"

@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 Intent intent= new Intent(MainActivity.this,activity_screen2.class);
+                intent.putExtra("name",et1.getText().toString());
                 startActivity(intent);
 
 

@@ -5,30 +5,50 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/androidapp"
     tools:context=".MainActivity">
 
-  <TextView
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:id="@+id/tx1"
-      android:text="First Screen"/>
 
-<EditText
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:id="@+id/et1"
-    android:textSize="18dp"
-    android:hint="kuch bharo na"/>
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="314dp"
+        android:layout_height="89dp"
+        android:layout_gravity="center"
+        android:gravity=""
+        android:text="TOh AAP KO PEHLI BAAR PYAAR HUA HAI?"
+        android:textSize="22dp"
+        android:textStyle="italic"
+        android:textColor="#9FE4ED" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et1"
+        android:textSize="18dp"
+        android:hint="Apne Pyaar ka Naam Likhiye"
+        android:textColorHint="@color/white"
+        android:shadowColor="@color/white"
+        android:textColorHighlight="@color/white"
+        android:textColor="#EE7C7C"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:scrollbarSize="20dp"
+        />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/bt1"
-        android:text="Daba ke toh dekh !"
+        android:text="TOh DER kis baat ki 143 boldete hai !"
+        android:backgroundTint="#98DCE6"
         android:padding="18dp"
-        android:layout_gravity="center"
+        android:textColor="#1C4B56"
 
-        />
+        android:textStyle="italic"
+        android:layout_gravity="center"
+/>
+
+
 
 
 </LinearLayout>
